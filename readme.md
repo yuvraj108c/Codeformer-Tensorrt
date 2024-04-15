@@ -12,7 +12,7 @@
   <img src="demo.png" height="128" />
 </p>
 
-- This repo provides a minimal TensorRT implementation of [Codeformer](https://github.com/sczhou/CodeFormer) in Python, enabling fast face restoration on images
+- This repo provides a minimal TensorRT implementation of [Codeformer](https://github.com/sczhou/CodeFormer) in Python, enabling fast face restoration on images (2x speedup)
 - This implementation does not include preprocessing (face detection/alignment/cropping) and postprocessing (pasting the restored face on the original image)
 - The model only performs inference on preprocessed images (e.g [input.png](./input.png)), which need to be 512 x 512, with face fully visible
 
