@@ -1,3 +1,9 @@
+# git clone https://github.com/sczhou/CodeFormer
+# cd CodeFormer
+# pip install -r requirements.txt
+# python basics/setup.py install
+# then run this file inside that folder
+
 import torch
 from basicsr.utils.download_util import load_file_from_url
 from basicsr.utils.misc import gpu_is_available, get_device
