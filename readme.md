@@ -34,10 +34,12 @@
    trtexec --onnx=codeformer.onnx --saveEngine=codeformer.engine --fp16
    ```
 
-## 🛠️ Inference
+## ⚡ Inference
 
 ```bash
-python inference.py --input ./input.png --engine ./codeformer.engine
+git clone https://github.com/yuvraj108c/Codeformer-Tensorrt.git
+pip install -r requirements.txt
+python inference.py --input ./input.png --engine ./codeformer.engine --output ./output.png
 ```
 
 ## 🤖 Environment tested
